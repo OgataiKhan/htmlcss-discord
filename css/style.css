@@ -126,6 +126,7 @@ HEADER
 ********
  */
 
+ /* Header top */
 
  .header-top {
     padding-top: 16px;
@@ -137,7 +138,7 @@ HEADER
  }
 
  .logo, .login {
-    max-width: 250px;
+    width: 250px;
  }
 
  .login {
@@ -154,14 +155,14 @@ HEADER
     flex-grow: 1;
  }
 
+/* Header bottom */
+
  .featured-content {
     max-width: 950px;
     margin: 0 auto;
  }
 
  .header-bottom {
-    justify-content: center;
-    align-items: center;
     padding-top: 50px;
     padding-bottom: 50px;
  }
@@ -177,7 +178,7 @@ MAIN
 }
 
 .first-content {
-    max-width: 750px;
+    width: 750px;
 }
 
 .second-content {
@@ -195,13 +196,15 @@ FOOTER
 ********
  */
 
+ /* Footer top */
+
  .footer-top {
     padding-top: 10px;
     padding-bottom: 40px;
  }
 
 .footer-first-content {
-    max-width: 375px;
+    width: 375px;
 }
 
 .footer-second-content {
@@ -211,6 +214,8 @@ FOOTER
 .vertical-banner {
     flex-grow: 1;
 }
+
+/* Footer bottom */
 
 .footer-bottom {
     padding-top: 30px;
