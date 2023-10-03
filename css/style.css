@@ -29,7 +29,7 @@ DEBUG
  }
 
  .debug .header-top-container {
-    background-color: #daa520;
+    /* background-color: #daa520; */
  }
 
  .debug .header-bottom {
@@ -107,8 +107,7 @@ COMMON
  */
 
  body {
-    font-size: 1.2rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
  }
 
  .flexbox {
@@ -120,17 +119,41 @@ COMMON
     margin: 0 auto;
  }
 
+ .btn {
+    all: unset;
+}
+
  /* 
 ********
 HEADER
 ********
  */
 
+ header, header nav a {
+    color: white;
+    text-decoration: none;
+ }
+
+ .header-top-container {
+    align-items: center;
+}
+
+.btn.white {
+    font-size: 14px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 18px;
+}
+
  /* Header top */
 
  .header-top {
     padding-top: 16px;
     padding-bottom: 16px;
+    background-color: #255ee9;
+
  }
 
  .logo, .login, nav {
@@ -138,20 +161,24 @@ HEADER
  }
 
  .logo, .login {
-    width: 250px;
+    width: 125px;
+ }
+
+ .logo img {
+    width: 100%;
  }
 
  .login {
     text-align: end;
  }
 
- nav ul {
+ .top-menu ul {
     list-style: none;
     justify-content: center;
-    gap: 13px;
+    gap: 40px;
  }
 
- nav {
+ .top-menu {
     flex-grow: 1;
  }
 
