@@ -208,6 +208,10 @@ MAIN
     font-size: 30px;
     padding-top: 80px;
     padding-bottom: 70px;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: center 40px;
+    background-size: 580px;
 }
 
  /* 
