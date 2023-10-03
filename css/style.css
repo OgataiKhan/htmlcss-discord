@@ -213,6 +213,16 @@ MAIN
     background-size: 580px;
 }
 
+.wavy-border {
+    background-image: url(../img/wave.svg);
+    height: 120px;
+    filter: opacity(0.04);
+}
+
+.wavy-border.rotated {
+    transform: scale(1, -1);
+}
+
  /* 
 ********
 FOOTER
