@@ -116,7 +116,7 @@ COMMON
  }
 
  .layout {
-    width: 1250px;
+    max-width: 1250px;
     margin: 0 auto;
  }
 
@@ -137,7 +137,7 @@ HEADER
  }
 
  .logo, .login {
-    width: 250px;
+    max-width: 250px;
  }
 
  .login {
@@ -155,7 +155,7 @@ HEADER
  }
 
  .featured-content {
-    width: 950px;
+    max-width: 950px;
     margin: 0 auto;
  }
 
@@ -177,7 +177,7 @@ MAIN
 }
 
 .first-content {
-    width: 750px;
+    max-width: 750px;
 }
 
 .second-content {
@@ -201,7 +201,7 @@ FOOTER
  }
 
 .footer-first-content {
-    width: 375px;
+    max-width: 375px;
 }
 
 .footer-second-content {
