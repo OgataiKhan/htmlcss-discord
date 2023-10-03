@@ -10,95 +10,6 @@ RESET
     box-sizing: border-box;
  }
 
- /* 
-********
-DEBUG
-********
- */
-
- body.debug {
-    background: blue;
- }
-
- .debug .content-box {
-    border: 1px dashed black;
- }
-
- .debug header {
-    /* background-color: #add8e6; */
- }
-
- .debug .header-top-container {
-    /* background-color: #daa520; */
- }
-
- /* .debug .header-bottom {
-    background-color: #00008b;
-    border-bottom: 3px solid #bae8ed;
- } */
-
- /* .debug .featured-content {
-    background-color: #ee82ee;
-    height: 420px;
- } */
-
- .debug .section-one, .section-three {
-    background-color: #ffffff;
-}
-
-.debug .section-two, .section-four {
-    background-color: #f5f5f5;
-}
-
-/* .debug .section-container {
-    height: 520px;
-}
-
-.debug .first-content {
-    background-color: #1e90ff;
-}
-
-.debug .second-content {
-    background-color: #ffc0cb;
-} */
-
-/* .debug .section-container-big {
-    background-color: #228b22;
-    height: 937px;
-} */
-
-/* .debug .footer-bottom {
-    background-color: #23272a;
-    border-top: 1px solid #b4b4b3;
-    border-bottom: 1px solid #b4b4b3;
-} */
-
-/* .debug .footer-featured {
-    height: 605px;
-} */
-
-/* .debug .footer-first-content {
-    background-color: #f08080;
-} */
-/* 
-.debug .footer-second-content {
-    background-color: #20b2aa;
-} */
-
-/* .debug .vertical-banner {
-    border: 1px dashed white;
-} */
-
-/* .debug .bottom-banner {
-    background-color: #7fffd4;
-} */
-
-.debug .logo-bottom, .debug .footer-button {
-    background-color: #ffb6c1;
-    font-size: 1.2rem;
-}
-
-
 
  /* 
 ********
@@ -255,6 +166,14 @@ MAIN
 ********
  */
 
+ .section-one, .section-three {
+    background-color: #ffffff;
+}
+
+.section-two, .section-four {
+    background-color: #f5f5f5;
+}
+
 .section {
     padding: 110px 0;
 }
@@ -367,6 +286,7 @@ footer .socials {
 
 .footer-bottom {
     padding-top: 30px;
+    border-bottom: 1px solid #b4b4b3;
 }
 
 .bottom-banner {
@@ -377,9 +297,5 @@ footer .socials {
 }
 
 .logo-bottom, .footer-button {
-    padding: 10px;
-}
-
-.footer-bottom {
-    border-bottom: 1px solid #b4b4b3;
+    padding: 5px;
 }
