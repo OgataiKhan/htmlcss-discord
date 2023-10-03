@@ -62,7 +62,7 @@ COMMON
 .btn.big {
     font-size: 20px;
     padding: 14px 20px;
-    border-radius: 24px;
+    border-radius: 30px;
 }
 
 body p {
@@ -71,7 +71,6 @@ body p {
 }
 
 .btn strong {
-    font-size: 1.3em;
     font-weight: bold;
     vertical-align: middle;
 }
