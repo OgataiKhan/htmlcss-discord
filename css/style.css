@@ -280,6 +280,7 @@ footer .socials {
 
 .footer-second-content {
     flex-grow: 1;
+    justify-content: space-between;
 }
 
 .footer-top h5 {
@@ -289,10 +290,6 @@ footer .socials {
 
 .footer-top .vertical-banner div {
     margin-top: 18px;
-}
-
-.vertical-banner {
-    flex-grow: 1;
 }
 
 /* Footer bottom */
@@ -305,7 +302,7 @@ footer .socials {
 .bottom-banner {
     justify-content: space-between;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 55px;
     border-top: 1px solid #4f5d8c;
 }
 
